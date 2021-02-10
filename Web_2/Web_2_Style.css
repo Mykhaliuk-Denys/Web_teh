@@ -1,0 +1,68 @@
+
+body{
+	font-family: Hammersmith One;
+    background-color: #f5f5f5;	
+} 
+
+.text {
+	font-family: Hammersmith One;
+	font-size: 20;
+}
+
+.text-center {
+	font-size: 20;
+	text-align: center;
+}
+
+h4 {
+	color: #000000
+}
+
+h4:hover {
+	color: #9891ba
+}
+
+.column-with-border th, td {
+	border: 1px solid grey;
+}
+
+table {
+	border-collapse: collapse; 
+	border: 1px solid grey;
+	width: 700px;
+	height: 200px;
+	background: #4174f2;
+	text-align: center;
+}
+
+th{
+	width: 20%;
+}
+
+td:first-child {
+   width: 30%;
+   text-align: left;
+   padding: 0px 10px;
+}
+
+h1 {
+	text-align: center;
+}
+hr {
+	color: black;
+	width:85%;
+	margin:0 auto;
+}
+dl {
+	font-size: 125%;
+}
+ul {
+	font-size: 125%;
+	list-style-type: circle;
+}
+.verse {
+	display: table;
+	margin: 0 auto;
+	white-space: pre-line;
+	word-wrap: break-word;
+}
