@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Особисті дані</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+<h1>Анкета</h1>
+<p class="text-center">Заповніть анкету</p>
+
+<form method="POST" action="#">
+	<p>Введіть імя:<input type="text" placeholder="Імя" style="width: 125px;" class="input-text"/></p>
+	<p>Введіть пароль:<input type="password" maxlength="5" placeholder="пароль" style="width: 125px;" class="input-text"/></p>
+	<p>Стать:</p>
+	<input type="radio" checked name="sex"/>Чол
+	<input type="radio" name="sex"/>жін
+	<p>Рід занять:</p>
+    <input type="checkbox" checked name="occupation"/> Студент <br>
+    <input type="checkbox" name="occupation"/> Школьник <br>
+    <input type="checkbox" name="occupation"/> Аспірант <br>
+    <input type="radio" name="iswork"/> Працюю 
+    <input type="radio" name="iswork"/> Не працюю
+	
+	<p>Які фільми любите читати?</p>
+	<p><select size="3">
+    <option value="science">Научно-пізнавальні</option>
+    <option selected value="fantastic">Фантастика</option>
+    <option value="documentary">Документальні</option>
+    <option value="comedy">Комедії</option>
+    <option value="horrors">Жахи</option>
+   </select></p>
+   <p>Який улюблений фільм? опишіть що вас вразило</p>
+   <textarea rows="10" cols="45" name="filmText" title="Сміліше!" placeholder="Не бійтесь"></textarea><br>
+   <input type="button" value="send" />
+</form>
+</div>
+</body>
+</html>
